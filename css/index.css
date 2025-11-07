@@ -1,0 +1,64 @@
+h1{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 7%;
+	font-size: 40px;
+	color: black;
+}
+label{
+	margin:4%;
+	font-size: 24px;
+}
+option{
+	font-size: 18px;
+}
+button{
+	width: 70%;
+	font-size: 24px;
+	margin-left: 15%;
+	margin-top: 15%;
+	background-color: #00CCFF;
+	margin-bottom: 15%;
+}
+h3, h4{
+	margin-top: 2%;
+}
+h3{font-size: 27px;margin-bottom: 5%;text-align: center;} h4{font-size: 20px;margin-left: 4%;}
+p{
+	font-size: 15px;
+	margin-left: 4%;
+	margin-right: 4%;
+	color: #555;
+	white-space: pre-wrap;
+}
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.location {
+	padding: 4%;
+	text-align: center;
+	border: 2px solid darkblue; 
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 7%;
+	border-radius: 10px;
+}
+.locinfo {  
+    display: inline-block;  
+    padding: 2%;  
+    text-align: center;  
+    width: 45%; /* 可以根据需要调整 */  
+    margin: 1%; /* 垂直和水平的外边距 */  
+    vertical-align: middle; /* 使 .locinfo 和 .seperator 垂直对齐 */  
+    box-sizing: border-box; /* 确保 padding 不会增加元素的宽度 */  
+}  
+  
+.seperator {  
+    display: inline-block;  
+    width: 1px;  
+    background-color: #555;  
+    height: 70px; /* 调整为与 .locinfo 的高度相匹配，减去 padding 的影响 */  
+    vertical-align: middle; /* 使 .seperator 和 .locinfo 垂直对齐 */
+}
